@@ -1,0 +1,29 @@
+# out input is as below
+# x = 0000100000000000 | v = 0001010000000000
+# our result is (binary / decimal) 0000101011001101	 2765 
+# out expected result is (binary / decimal) 0000101011001110,	 2766  
+#  
+# out input is as below
+# x = 0000110010010000 | v = 0000100000000000
+# our result is (binary / decimal) -0000000000000111	-    7 
+# out expected result is (binary / decimal) 0000000000000001	    1,  
+#  
+# out input is as below
+# x = 0000000000000000 | v = 0000101101001101
+# our result is (binary / decimal) 0000101101001101	 2893 
+# out expected result is (binary / decimal) 0000101101001101,	 2893  
+#  
+# out input is as below
+# x = 0000110010010000 | v = 0001000101000111
+# our result is (binary / decimal) -0000000000010000	-   16 
+# out expected result is (binary / decimal) 0000000000000000	    0,  
+#  
+# out input is as below
+# x = 0000100000000000 | v = 0000100000000000
+# our result is (binary / decimal) 0000010001010010	 1106 
+# out expected result is (binary / decimal) 0000010001010010,	 1106  
+#  
+# out input is as below
+# x = 0000100000000000 | v = 0010100000000000
+# our result is (binary / decimal) 0001010110011010	 5530 
+# out expected result is (binary / decimal) 0001010110011100,	 5532  
